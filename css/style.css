@@ -70,16 +70,16 @@ a:hover {
 }
 
 /* header */
-header {
-	height: 895px;
-	/* background-color: blue; */
-}
-
 .nav-top {
 	height: 100px;
+	width: 100%;
 	background-color: lightblue;
 	line-height: 100px;
 	border-bottom: 1px solid black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
 }
 
 
@@ -91,7 +91,7 @@ header {
 	height: 100px;
 	background-color: white;
 	line-height: 100px;
-
+	margin-top: 100px;
 }
 
 .nav-bottom .logo {
@@ -106,13 +106,42 @@ header {
 }
 
 .jumbotron {
+	height: 695px;
 	background-image: url('../img/jumbotron.png');
 	background-color: #fef5ee;
 	background-size: 65%;
 	background-repeat: no-repeat;
-	background-position: 100% 32%;
+	background-position: 100% 100%;
+	position: relative;
 }
 
+.jumbotron .box-jumbotron {
+	width: 40%;
+}
+
+.jumbotron h1 {
+	font-size: 60px;
+	margin-bottom: 30px;
+}
+
+.jumbotron .p-centrale {
+	margin-bottom: 50px;
+}
+
+.jumbotron .p-sotto {
+	margin-top: 50px;
+}
+
+.barra-colorata {
+	height: 72px;
+	width: 100%;
+	background-color: #afebe4;
+	border-top: 4px solid #273a51;
+	border-bottom: 4px solid #273a51;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
 /* main */
 main {
 	height: 2000px;
