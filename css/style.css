@@ -4,6 +4,11 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+
 /* regole generali */
 .clearfix::after {
 	content: '';
@@ -18,6 +23,42 @@
 .float-right {
 	float: right;
 }
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.btn {
+	background-color: #ff7a59;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+}
+
+.btn-white {
+	background-color: white;
+	border: 1.5px solid #ff7a59;
+	color: #ff7a59;
+}
+
+.btn-large {
+	padding: 20px;
+}
+
 /* /regole generali */
 
 /* contenitore */
@@ -25,23 +66,51 @@
 	width: 80%;
 	height: 895px;
 	margin: 0 auto;
-	background-color: white;
+	/* background-color: grey; */
 }
 
 /* header */
 header {
 	height: 895px;
-	background-color: blue;
+	/* background-color: blue; */
 }
 
 .nav-top {
 	height: 100px;
-	background-color: pink;
+	background-color: lightblue;
+	line-height: 100px;
+	border-bottom: 1px solid black;
+}
+
+
+.nav-top-right li {
+	padding-left: 15px;
 }
 
 .nav-bottom {
 	height: 100px;
-	background-color: lightgreen;
+	background-color: white;
+	line-height: 100px;
+
+}
+
+.nav-bottom .logo {
+	position: relative;
+}
+
+.nav-bottom .logo img {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	transform: translateY(-50%);
+}
+
+.jumbotron {
+	background-image: url('../img/jumbotron.png');
+	background-color: #fef5ee;
+	background-size: 65%;
+	background-repeat: no-repeat;
+	background-position: 100% 32%;
 }
 
 /* main */
