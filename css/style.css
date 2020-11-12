@@ -82,6 +82,11 @@ a:hover {
 	z-index: 3;
 }
 
+/* .nav-top-left li:last-child {
+	border-left: 1px solid black;
+	height: 30px;
+} */
+
 
 .nav-top-right li {
 	padding-left: 15px;
@@ -117,11 +122,13 @@ a:hover {
 
 .jumbotron .box-jumbotron {
 	width: 40%;
+	height: 100%;
 }
 
 .jumbotron h1 {
 	font-size: 60px;
 	margin-bottom: 30px;
+	padding-top: 50px;
 }
 
 .jumbotron .p-centrale {
@@ -145,7 +152,25 @@ a:hover {
 /* main */
 main {
 	height: 2000px;
-	background-color: red;
+	background-color: #daf6f3;
+}
+
+main section .box-powerful {
+	background-image: url('https://www.hubspot.com/hubfs/assets/hubspot.com/home/2018/Integrations_Illustration@2x.png');
+	background-repeat: no-repeat;
+	height: 500px;
+	background-position: bottom center;
+}
+
+.descrizione-powerful {
+	text-align: center;
+	width: 100%;
+	padding: 0 350px;
+}
+
+.descrizione-powerful h2 {
+	font-size: 40px;
+	margin-bottom: 30px;
 }
 
 /* footer */
