@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* regole generali */
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+/* /regole generali */
+
+/* contenitore */
+.container {
+	width: 80%;
+	height: 895px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+/* header */
+header {
+	height: 895px;
+	background-color: blue;
+}
+
+.nav-top {
+	height: 100px;
+	background-color: pink;
+}
+
+.nav-bottom {
+	height: 100px;
+	background-color: lightgreen;
+}
+
+/* main */
+main {
+	height: 2000px;
+	background-color: red;
+}
+
+/* footer */
+footer {
+	height: 600px;
+	background-color: brown;
+}
