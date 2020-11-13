@@ -353,9 +353,57 @@ main section .img-primasezione {
 /* /prima sezione */
 /* seconda sezione */
 .box-seconda-sezione {
-	height: 600px;
-	background-color: lightgreen;
+	/* height: 600px; */
+	background: linear-gradient(#45bacb, #1f849c);
+	text-align: center;
+	color: white;
 }
+
+.box-seconda-sezione h2 {
+	font-size: 40px;
+	padding-top: 50px;
+}
+
+.box-seconda-sezione p {
+	padding: 0 250px;
+	margin-top: 50px;
+	padding-bottom: 50px;
+}
+
+.primo-quadrato, .secondo-quadrato, .terzo-quadrato, .quarto-quadrato {
+	width: calc(100% / 4);
+	height: 300px;
+	/* background-color: lightgrey; */
+}
+
+.prima-row {
+	border-bottom: 1px solid white;
+	padding-top: 100px;
+}
+
+.primo-quadrato, .secondo-quadrato, .terzo-quadrato {
+	border-right: 1px solid white;
+}
+
+.icone-row {
+	width: 100px;
+	padding-top: 40px;
+}
+
+.icone-row-grandi {
+	width: 150px;
+}
+
+.icone-row-piccole {
+	width: 40px;
+}
+
+.seconda-row {
+	padding-bottom: 200px;
+}
+
+
+
 
 
 
