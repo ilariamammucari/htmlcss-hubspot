@@ -353,7 +353,6 @@ main section .img-primasezione {
 /* /prima sezione */
 /* seconda sezione */
 .box-seconda-sezione {
-	/* height: 600px; */
 	background: linear-gradient(#45bacb, #1f849c);
 	text-align: center;
 	color: white;
@@ -376,7 +375,7 @@ main section .img-primasezione {
 
 .prima-row {
 	border-bottom: 1px solid white;
-	padding-top: 100px;
+	margin-top: 100px;
 }
 
 .primo-quadrato, .secondo-quadrato, .terzo-quadrato {
@@ -411,27 +410,30 @@ main section .img-primasezione {
 	padding-bottom: 200px;
 }
 
-.prima-row, .seconda-row h2 {
+.prima-row h4 {
 	font-size: 40px;
 	font-weight: bold;
-	padding-top: 20px;
 }
 
-.prima-row p {
+.seconda-row h4 {
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.prima-row h5 {
 	font-size: 15px;
 	text-align: center;
 	font-weight: normal;
 	padding: 30px 0;
 }
 
-.seconda-row p {
+.seconda-row h5 {
 	font-size: 15px;
 	text-align: center;
 	font-weight: normal;
 	padding: 30px 0;
 }
-
-
 
 
 
@@ -439,8 +441,59 @@ main section .img-primasezione {
 /* terza sezione */
 .box-terza-sezione {
 	height: 600px;
-	background-color: orange;
+	background-color: white;
 }
+
+.dati-numeri {
+	width: 20%;
+	height: 300px;
+}
+
+.aziende-partner {
+	width: 80%;
+	height: 300px;
+}
+
+.terza-sezione-top h3 {
+	padding-left: 47%;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	font-size: 45px;
+}
+
+.terza-sezione-top li {
+	display: block;
+	text-align: right;
+	line-height: 2;
+}
+
+.aziende-logo {
+	width: 100px;
+}
+
+.aziende-uno, .aziende-due, .aziende-tre, .aziende-quattro {
+	width: 10%;
+	margin-left: 80px;
+}
+
+.row-aziende-uno {
+	margin-left: 20%;
+	padding-top: 50px;
+}
+
+.row-aziende-due {
+	margin-left: 20%;
+	padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+
 
 /* /terza sezione */
 /* footer */
