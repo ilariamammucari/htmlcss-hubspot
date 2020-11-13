@@ -59,6 +59,25 @@ a:hover {
 	padding: 20px;
 }
 
+a .fa-check-circle {
+	color: #ff7a59;
+	padding-right: 10px;
+}
+
+span {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+.lista {
+	margin-top: 30px;
+}
+
 /* /regole generali */
 
 /* contenitore */
@@ -173,9 +192,10 @@ main section .img-primasezione {
 }
 
 .primo-box .container-primo-box {
-	height: 400px;
+	/* height: 400px; */
 	background-color: white;
 	border: 1px solid black;
+	padding: 80px 0;
 }
 
 .primo-box-left {
@@ -185,55 +205,39 @@ main section .img-primasezione {
 
 .primo-box-left img {
 	width: 40%;
-	padding: 70px 0;
+}
+
+.primo-box-left p {
+	margin-top: 50px;
 }
 
 
 .primo-box-right {
 	width: 70%;
-	padding: 0 150px;
 }
 
 .boxinterno-right {
 	width: 100%;
-	margin-top: 70px;
 }
 
 .boxinterno-right h3 {
-	font-size: 30px;
 	margin-bottom: 50px;
 }
 
 .boxinterno-right p {
 	line-height: 1.6;
 	margin-bottom: 30px;
-	padding-right: 200px;
+	padding-right: 300px;
 }
 
-.boxinterno-right span {
-	text-transform: uppercase;
-	font-size: 20px;
-	font-weight: bold;
-}
 
 .boxinterno-right hr {
 	display: inline-block;
-	width: 60%;
+	width: 45%;
 	margin-left: 50px;
 	vertical-align: middle;
 	border: 1px solid black;
 }
-
-
-.boxinterno-right .lista {
-	margin-top: 30px;
-}
-
-.boxinterno-right .lista i {
-	color: #ff7a59;
-	padding-right: 10px;
-}
-
 
 
 .secondo-box {
@@ -242,25 +246,110 @@ main section .img-primasezione {
 }
 .primo-blocco {
 	width: 30%;
-	height: 600px;
+	background-color: white;
 	border: 1px solid black;
-	background-color: green;
+	text-align: center;
+	padding: 0 70px;
 }
+
+.primo-blocco img {
+	width: 40%;
+	margin-bottom: 40px;
+	margin-top: 30px;
+}
+
+
+.primo-blocco p {
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+
+.primo-blocco hr {
+	margin-bottom: 40px;
+}
+
+.primo-blocco li {
+	display: block;
+	text-align: left;
+}
+
+.primo-blocco p {
+	margin-top: 80px;
+}
+
 
 .secondo-blocco {
 	width: 30%;
-	height: 600px;
 	border: 1px solid black;
-	background-color: blue;
-	margin: 0 60px;
+	margin: 0 5%;
+	background-color: white;
+	text-align: center;
+	padding: 0 70px;
+}
+
+
+.secondo-blocco img {
+	width: 50%;
+	margin-bottom: 40px;
+	margin-top: 30px;
+}
+
+
+.secondo-blocco p {
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+
+.secondo-blocco hr {
+	margin-bottom: 40px;
+}
+
+.secondo-blocco li {
+	display: block;
+	text-align: left;
+}
+
+.secondo-blocco p {
+	margin-top: 80px;
 }
 
 .terzo-blocco {
 	width: 30%;
-	height: 600px;
 	border: 1px solid black;
-	background-color: yellow;
+	width: 30%;
+	background-color: white;
+	text-align: center;
+	padding: 0 70px;
 }
+
+
+
+.terzo-blocco img {
+	width: 40%;
+	margin-bottom: 40px;
+	margin-top: 30px;
+}
+
+
+.terzo-blocco p {
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+
+.terzo-blocco hr {
+	margin-bottom: 40px;
+}
+
+.terzo-blocco li {
+	display: block;
+	text-align: left;
+}
+
+.terzo-blocco p {
+	margin-top: 80px;
+}
+
+
 /* /prima sezione */
 /* seconda sezione */
 .box-seconda-sezione {
