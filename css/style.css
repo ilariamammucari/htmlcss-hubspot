@@ -30,12 +30,12 @@ ul {
 
 li {
 	display: inline-block;
+	padding: 0 15px;
 }
 
 a {
 	text-decoration: none;
 	color: black;
-	padding: 10px;
 }
 
 a:hover {
@@ -64,7 +64,7 @@ a:hover {
 /* contenitore */
 .container {
 	width: 80%;
-	height: 895px;
+	/* height: 895px; */
 	margin: 0 auto;
 	/* background-color: grey; */
 }
@@ -82,14 +82,9 @@ a:hover {
 	z-index: 3;
 }
 
-/* .nav-top-left li:last-child {
-	border-left: 1px solid black;
-	height: 30px;
-} */
-
-
-.nav-top-right li {
-	padding-left: 15px;
+.nav-top-left i:last-child {
+	border-right: 1px solid black;
+	padding-right: 30px;
 }
 
 .nav-bottom {
@@ -118,6 +113,7 @@ a:hover {
 	background-repeat: no-repeat;
 	background-position: 100% 100%;
 	position: relative;
+	box-shadow: inset 0 10px 8px rgba(0, 0, 0, 0.1);
 }
 
 .jumbotron .box-jumbotron {
@@ -133,6 +129,7 @@ a:hover {
 
 .jumbotron .p-centrale {
 	margin-bottom: 50px;
+	line-height: 1.6;
 }
 
 .jumbotron .p-sotto {
@@ -150,22 +147,24 @@ a:hover {
 	left: 0;
 }
 /* main */
-main {
-	height: 2000px;
+/* prima sezione */
+section {
+	/* height: 2000px; */
 	background-color: #daf6f3;
 }
 
-main section .box-powerful {
+main section .img-powerful {
 	background-image: url('https://www.hubspot.com/hubfs/assets/hubspot.com/home/2018/Integrations_Illustration@2x.png');
 	background-repeat: no-repeat;
-	height: 500px;
+	height: 600px;
 	background-position: bottom center;
 }
 
 .descrizione-powerful {
 	text-align: center;
 	width: 100%;
-	padding: 0 350px;
+	padding: 0 220px;
+	margin-bottom: 100px;
 }
 
 .descrizione-powerful h2 {
@@ -173,8 +172,68 @@ main section .box-powerful {
 	margin-bottom: 30px;
 }
 
+.primo-box .container-primo-box {
+	height: 400px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.primo-box-left {
+	width: 50%;
+	height: 400px;
+	background-color: red;
+}
+
+.primo-box-right {
+	width: 50%;
+	height: 400px;
+	background-color: pink;
+}
+
+.secondo-box {
+	margin-top: 50px;
+	padding-bottom: 50px;
+}
+.primo-blocco {
+	width: 30%;
+	height: 600px;
+	border: 1px solid black;
+	background-color: green;
+}
+
+.secondo-blocco {
+	width: 30%;
+	height: 600px;
+	border: 1px solid black;
+	background-color: blue;
+	margin: 0 60px;
+}
+
+.terzo-blocco {
+	width: 30%;
+	height: 600px;
+	border: 1px solid black;
+	background-color: yellow;
+}
+/* /prima sezione */
+/* seconda sezione */
+.box-seconda-sezione {
+	height: 600px;
+	background-color: lightgreen;
+}
+
+
+
+/* /seconda sezione */
+/* terza sezione */
+.box-terza-sezione {
+	height: 600px;
+	background-color: orange;
+}
+
+/* /terza sezione */
 /* footer */
-footer {
+.box-footer {
 	height: 600px;
 	background-color: brown;
 }
