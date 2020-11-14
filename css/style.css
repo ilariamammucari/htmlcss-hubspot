@@ -508,6 +508,97 @@ h5 {
 /* /terza sezione */
 /* footer */
 .box-footer {
-	height: 600px;
-	background-color: brown;
+	height: 1000px;
+	background-color: #2d3e50;
+}
+
+.col-uno {
+	width: calc(100% / 4);
+	color: white;
+}
+
+h6 {
+	font-size: 18px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	margin-left: 12px;
+}
+
+.col-uno a {
+	color: white;
+}
+
+.col-uno li {
+	display: block;
+	line-height: 2.6;
+}
+
+.col-due {
+	width: calc(100% / 4);
+	color: white;
+}
+
+.col-due a {
+	color: white;
+}
+
+.col-due li {
+	display: block;
+	line-height: 2.6;
+}
+
+
+.col-tre {
+	width: calc(100% / 4);
+	color: white;
+}
+
+.col-tre a {
+	color: white;
+}
+
+.col-tre li {
+	display: block;
+	line-height: 2.6;
+}
+
+
+.col-quattro {
+	width: calc(100% / 4);
+	color: white;
+}
+
+.col-quattro a {
+	color: white;
+}
+
+.col-quattro ul:last-child li:last-child a {
+	padding: 0 10px;
+}
+
+.col-quattro li {
+	display: block;
+	line-height: 2.6;
+}
+
+#btn-speciale {
+	color: #2d3e50;
+	background-color: white;
+}
+
+#li-speciale {
+	margin-top: 20px;
+}
+
+.box-footer-bottomtop {
+	margin-top: 200px;
+	text-align: center;
+}
+
+.box-footer-bottomtop ul {
+	margin-bottom: 20px;
+}
+
+.box-footer-bottomtop a {
+	color: white;
 }
