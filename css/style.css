@@ -429,13 +429,11 @@ h5 {
 /* /seconda sezione */
 /* terza sezione */
 .box-terza-sezione {
-	height: 1000px;
 	background-color: white;
 }
 
 .dati-numeri {
 	width: 20%;
-	height: 300px;
 }
 
 .aziende-partner {
@@ -477,15 +475,35 @@ h5 {
 	top: 40%;
 }
 
+.terza-sezione-bottomleft {
+	width: 40%;
+	padding-top: 100px;
+	margin-bottom: 150px;
+}
+
+.terza-sezione-bottomleft h3 {
+	font-size: 40px;
+	margin-bottom: 50px;
+}
+
+.terza-sezione-bottomleft p {
+	margin-bottom: 60px;
+	padding-right: 150px;
+	line-height: 2;
+}
 
 
+.terza-sezione-bottomright {
+	width: 60%;
+	position: relative;
+}
 
-
-
-
-
-
-
+.terza-sezione-bottomright img {
+	width: 40%;
+	position: absolute;
+	right: 0;
+	top: 70px;
+}
 
 /* /terza sezione */
 /* footer */
