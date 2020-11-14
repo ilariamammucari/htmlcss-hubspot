@@ -410,37 +410,26 @@ main section .img-primasezione {
 	padding-bottom: 200px;
 }
 
-.prima-row h4 {
+h4 {
 	font-size: 40px;
 	font-weight: bold;
 }
 
 .seconda-row h4 {
-	font-size: 40px;
-	font-weight: bold;
 	margin-top: 30px;
 }
 
-.prima-row h5 {
+h5 {
 	font-size: 15px;
 	text-align: center;
 	font-weight: normal;
 	padding: 30px 0;
 }
-
-.seconda-row h5 {
-	font-size: 15px;
-	text-align: center;
-	font-weight: normal;
-	padding: 30px 0;
-}
-
-
 
 /* /seconda sezione */
 /* terza sezione */
 .box-terza-sezione {
-	height: 600px;
+	height: 1000px;
 	background-color: white;
 }
 
@@ -452,6 +441,7 @@ main section .img-primasezione {
 .aziende-partner {
 	width: 80%;
 	height: 300px;
+	position: relative;
 }
 
 .terza-sezione-top h3 {
@@ -467,24 +457,26 @@ main section .img-primasezione {
 	line-height: 2;
 }
 
-.aziende-logo {
-	width: 100px;
-}
-
-.aziende-uno, .aziende-due, .aziende-tre, .aziende-quattro {
-	width: 10%;
-	margin-left: 80px;
+.aziende-partner li {
+	display: inline-block;
 }
 
 .row-aziende-uno {
-	margin-left: 20%;
-	padding-top: 50px;
+	position: absolute;
+	right: 20%;
+	top: 15%;
+}
+
+.aziende-partner img {
+	width: 100px;
 }
 
 .row-aziende-due {
-	margin-left: 20%;
-	padding-top: 50px;
+	position: absolute;
+	right: 20%;
+	top: 40%;
 }
+
 
 
 
