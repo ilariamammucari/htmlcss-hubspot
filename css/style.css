@@ -508,7 +508,6 @@ h5 {
 /* /terza sezione */
 /* footer */
 .box-footer {
-	height: 1000px;
 	background-color: #2d3e50;
 }
 
@@ -601,6 +600,10 @@ h6 {
 
 .box-footer-bottomtop a {
 	color: white;
+}
+
+.box-footer-bottombottom {
+	padding-bottom: 30px;
 }
 
 .box-footer-bottombottomleft {
