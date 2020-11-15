@@ -602,3 +602,24 @@ h6 {
 .box-footer-bottomtop a {
 	color: white;
 }
+
+.box-footer-bottombottomleft {
+	width: 20%;
+	color: white;
+	margin-top: 50px;
+}
+
+.box-footer-bottombottomright {
+	width: 80%;
+	color: white;
+	text-align: right;
+	margin-top: 50px;
+}
+
+.box-footer-bottombottomright p {
+	display: inline;
+}
+
+.box-footer-bottombottomright p:first-child {
+	padding-right: 30px;
+}
