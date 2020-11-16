@@ -626,3 +626,58 @@ h6 {
 .box-footer-bottombottomright p:first-child {
 	padding-right: 30px;
 }
+/* /footer */
+/* finestra chat */
+.box-chat {
+	width: 300px;
+	height: 200px;
+	background-color: white;
+	border: 1px solid black;
+	position: fixed;
+	right: 30px;
+	bottom: 120px;
+}
+
+.avatar img {
+ width: 30%;
+ position: absolute;
+ top: -50px;
+ left: 50%;
+ transform: translateX(-50%);
+}
+
+.avatar p {
+	color: #425b76;
+}
+
+.box-chat .fa-times-circle {
+	position: absolute;
+	top: 3%;
+	right: 3%;
+}
+
+.text-chat {
+	width: 60%;
+	margin: auto;
+	margin-top: 60px;
+	font-size: 15px;
+	text-align: center;
+	line-height: 2;
+}
+
+.icona-chat {
+	position: fixed;
+	bottom: 20px;
+	right: 60px;
+}
+
+.fa-comments {
+	font-size: 50px;
+	color: white;
+	padding: 30%;
+	border-radius: 50%;
+	background-color: #425b76;
+}
+
+
+/* /finestra chat */
